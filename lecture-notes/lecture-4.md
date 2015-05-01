@@ -89,7 +89,11 @@ for w in tokens:
 
 # fun with lists
 reversed = tokens.reverse()
-sorted = tokens.sort()
+
+# note: the .sort() method sorts a list in place, i.e. it does not create a new list!
+tokens.sort()
+tokens
+
 pop = tokens.pop()
 
 # n-grams
